@@ -1,0 +1,91 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  margin: 0 28%;
+}
+
+.box-menu-block{
+  display: flex; 
+  justify-content: space-between;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 40px;
+}
+
+.button{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  font-size: medium;
+  background-color: red;
+  border: 2px solid black;
+  color: azure;
+}
+
+.button:hover{
+  background-color: rgb(168, 2, 2);
+}
+
+.box-image{
+  display: flex;
+  height: 400px;
+  /* background-color: rgb(217, 255, 0); Чтобы было видно где ошибка */
+}
+
+
+.cat{
+  height: 100%;
+  padding: 12px;
+  padding-bottom: 100px;
+}
+
+.cat.active {
+  width: 100%;
+  padding: 12px;
+  padding-bottom: 100px;
+}
+
+.cat.none{
+  display: none;
+}
+
+.image-cat{
+  width: 100%;
+  min-width: 35px;
+  background-color: blue;
+}
+
+.image-cat.none{
+  max-width: 35px;
+}
+
+.dog{
+  display: none;
+  height: 100%;
+}
+
+.dog.active {
+  width: 100%;
+  display: initial; 
+  padding: 12px;
+  padding-bottom: 100px;
+}
+
+.dog.right{
+  width: auto;
+}
+
+.image-dog{
+  min-width: 35px;
+  background-color: green;
+}
+
+.image-dog.active{
+  width: 100%;
+  background-color: green;
+}
